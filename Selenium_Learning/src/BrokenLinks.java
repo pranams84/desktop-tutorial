@@ -19,7 +19,7 @@ public class BrokenLinks {
     	 
         // TODO Auto-generated method stub1234
         
-        String homePage = "https://www.site24x7.com/";
+        String homePage = "https://www.google.com/";
         
         
         String url = "";
