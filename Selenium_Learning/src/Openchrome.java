@@ -13,7 +13,7 @@ public class Openchrome {
 WebDriver driver=new ChromeDriver();
 
 // Open Google
-driver.get("http://www.google.com");
+driver.get("http://www.jenkins.com");
 String a = driver.getTitle();
 String b = driver.getCurrentUrl();
 String c = driver.getWindowHandle();
