@@ -14,12 +14,6 @@ WebDriver driver=new ChromeDriver();
 
 // Open Google
 driver.get("http://www.google.com");
-String a = driver.getTitle();
-String b = driver.getCurrentUrl();
-String c = driver.getWindowHandle();
-System.out.println(b);
-System.out.println(a);
-System.out.println(c);
 WebElement element = driver.findElement(By.name("q"));
 String Tag = element.getTagName();
 System.out.println(Tag);
